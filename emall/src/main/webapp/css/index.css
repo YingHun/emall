@@ -38,7 +38,7 @@
 .container-box .process-bar{background-color:#fff;border-color:#e6e7ea;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none}
 .container-box .process-bar h4{font-weight:400}
 .container-box .process-bar h4 i{font-size:16px;margin-right:5px}
-.container-box .process-bar li{float:left;width:20%;text-align:center;line-height:43px;background:transparent url(../images/icon/step.png) no-repeat 100% 0}
+.container-box .process-bar li{float:left;width:25%;text-align:center;line-height:43px;background:transparent url(../images/icon/step.png) no-repeat 100% 0}
 .container-box .process-bar li.current{color:#fff;background:#44B549 url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -89px}
 .container-box .process-bar li.pre-steps{color:#747474;background:transparent url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -44px}
 .container-box .process-bar li.next{color:#747474;background:#fff url(../images/icon/step.png) no-repeat 100% 0;background-position:100% 0}
@@ -61,5 +61,5 @@
 .container .account-register a{display:inline-block;padding:40px 60px;color:#fff}
 .account-register .type-select p{display:block;background:#fbfbfb;text-align:right;padding:10px 5px;border-top:1px solid #ccccd5}
 .account-register .type-select p i{font-size:14px;margin-top:-10px}
-.rights{padding:20px 0;margin-top:60px;background:#e2e2e2}
+.rights{padding:20px 0;margin-top:100px;background:#e2e2e2}
 .rights a{color:#555}

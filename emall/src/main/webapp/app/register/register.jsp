@@ -27,9 +27,8 @@
 				<ul class="process-bar">
 					<li class="current"><h4><i class="iconfonts">&#xe6af;</i>注册类型</h4></li>
 					<li class="next"><h4><i class="iconfonts">&#xe6b0;</i>基本信息</h4></li>
-					<li class="next"><h4><i class="iconfonts">&#xe6b1;</i>密保问题</h4></li>
-					<li class="next"><h4><i class="iconfonts">&#xe6b2;</i>邮箱激活</h4></li>
-					<li class="nnext"><h4><i class="iconfonts">&#xe6b3;</i>注册成功</h4></li>
+					<li class="next"><h4><i class="iconfonts">&#xe6b1;</i>邮箱激活</h4></li>
+					<li class="nnext"><h4><i class="iconfonts">&#xe6b2;</i>注册成功</h4></li>
 				</ul>
 			</div>
 			<div id="swith_page">

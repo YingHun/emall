@@ -17,7 +17,8 @@
 .input-form .warming-tips .warning {color: #ea8010;}
 .input-form .warming-tips .success {color: #008c00;}
 .input-form .warming-tips p {margin-top: 10px; width: 340px;}
-.input-form .checkbox {color: #a3a3a3; margin-right: 10px;}
+.input-form .uncheck {color: #616161; margin-right: 10px; cursor: pointer;}
+.input-form .check {color: #1175db; margin-right: 10px; cursor: pointer;}
 .input-form a {color: #12b5eb;}
 .input-btn {margin: 40px 0px 0px; text-align: center;}
 .input-btn a {display: inline-block; padding: 12px 80px; color: #fff; background: #a3a3a3;}

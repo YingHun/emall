@@ -44,12 +44,11 @@
 				<input type="text" class="msg-code" name="code" id="code" placeholder="验证码" maxlength="11">
 				<a onclick="" class="send-message-code">发送短信验证码</a>
 				<span class="success"><i class="iconfonts">&#xe618;</i></span>
-				<p>作为登录帐号，请填写未被易购商城平台注册或绑定的手机号码</p>
 			</div>
 		</div>
 		<div class="input-form">
 			<label><input type="checkbox" name="agree"></label>
-			<i class="iconfonts checkbox">&#xe684;</i>我同意并遵守<a>《易购商城服务协议》</a>
+			<i class="iconfonts uncheck" id="agree">&#xe6d0;</i>我同意并遵守<a>《易购商城服务协议》</a>
 		</div>
 		<div class="input-btn">
 			<a onclick="">注册</a>
