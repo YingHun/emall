@@ -1,5 +1,5 @@
 <%@ page import="java.util.*" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
-<link rel="stylesheet" type="text/css" href="../../css/telephone.css">
+<link rel="stylesheet" type="text/css" href="../../css/register.css">
 <div class="telephone-form">
 	<form action="" method="post">
 		<div class="tips">

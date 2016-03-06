@@ -32,7 +32,7 @@
 				</ul>
 			</div>
 			<div id="swith_page">
-				<jsp:include page="telephone.jsp"></jsp:include>
+				<jsp:include page="email.jsp"></jsp:include>
 			</div>
 		</div>
 	</div>

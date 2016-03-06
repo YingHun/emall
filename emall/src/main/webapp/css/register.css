@@ -10,7 +10,7 @@
 .input-form .warming-tips {display: inline-block; }
 .input-form .warming-tips input {width: 320px; line-height: 30px; padding: 5px 10px; border: 1px solid #e3e3e3;}
 .input-form .warming-tips .msg-code {width: 180px; line-height: 30px; padding: 5px 10px; border: 1px solid #e3e3e3;}
-.input-form .warming-tips .send-message-code {display: inline-block; line-height: 30px; padding: 5px 10px; margin-left: 20px; border-radius: 3px; background: #1aabbf; color: #fff;}
+.input-form .warming-tips .send-message-code {display: inline-block; line-height: 30px; padding: 5px 0px; width: 116px; text-align: center; margin-left: 20px; border-radius: 3px; background: #1aabbf; color: #fff;}
 .input-form .warming-tips .send-message-code:hover {cursor: pointer; background: #0a99c9;}
 .input-form .warming-tips span {margin-left: 30px;}
 .input-form .warming-tips span i {margin-right: 10px;}
