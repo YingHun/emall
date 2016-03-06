@@ -6,53 +6,12 @@
 	border: none;
 }
 
-html {
-	font-size: 62.5%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-o-text-size-adjust: 100%
-}
-
 body {
-	color: #333;
-	line-height: 1.42857143;
-	font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", SimSun, "宋体", sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	color: inherit;
-	font-weight: 500;
-	line-height: 1.1;
-}
-
-h1 {
-	font-size: 36px;
-	font-size: 3.6rem;
-}
-
-h2 {
-	font-size: 30px;
-	font-size: 3rem;
-}
-
-h3 {
-	font-size: 24px;
-	font-size: 2.4rem;
-}
-
-h4 {
-	font-size: 18px;
-	font-size: 1.8rem;
-}
-
-h5, p {
+	min-width: 1200px;
+	color: #222;
 	font-size: 14px;
-	font-size: 1.4rem;
-}
-
-h6, span {
-	font-size: 12px;
-	font-size: 1.2rem;
+	line-height: 1.42857143;
+	font-family:  "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;;
 }
 
 input, select, textarea {
@@ -126,18 +85,10 @@ a:link {
 	color: #555;
 }
 
-a:visited {
-	color: #20a7c4;
-}
-
 a:hover {
 	color: #00945f;
 	text-decoration: none;
 	cursor: pointer;
-}
-
-a:active {
-	color: #1DA8FE;
 }
 
 a:focus {
