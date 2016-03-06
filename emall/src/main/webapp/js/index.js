@@ -20,7 +20,7 @@ require(["jquery"], function($){
 	
 	// 返回登录页面
 	$account_login.on("click", function(){
-		window.location.href = "../index.jsp";
+		window.location.href = "../../index.jsp";
 	});
 	
 	// 切换为二维码登录

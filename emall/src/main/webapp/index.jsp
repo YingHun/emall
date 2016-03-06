@@ -46,7 +46,7 @@
 				</div>
 				<div class="register-forget">
 					<ul>
-						<li><a href="app/register.jsp">注册eGo账号</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="app/register/register.jsp">注册eGo账号</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
 						<li><a href="app/forgetPassword.jsp">忘记密码？</a></li>
 					</ul>
 				</div>

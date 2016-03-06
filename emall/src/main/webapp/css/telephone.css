@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.telephone-form {clear:both;padding:60px 100px;background:#fff;overflow:hidden}
+.tips {margin: 0px 0px 40px;}
+.tips i {color: #1cbcd9; margin-right: 10px;}
+.tips span {color: #555;}
+.input-form {margin: 30px 0px 0px;}
+.input-form label {color: #555; width: 100px; display: inline-block; vertical-align: top; margin-top: 10px;}
+.input-form input[type='checkbox'] {display: none;}
+.input-form .warming-tips {display: inline-block; }
+.input-form .warming-tips input {width: 320px; line-height: 30px; padding: 5px 10px; border: 1px solid #e3e3e3;}
+.input-form .warming-tips .msg-code {width: 180px; line-height: 30px; padding: 5px 10px; border: 1px solid #e3e3e3;}
+.input-form .warming-tips .send-message-code {display: inline-block; line-height: 30px; padding: 5px 10px; margin-left: 20px; border-radius: 3px; background: #1aabbf; color: #fff;}
+.input-form .warming-tips .send-message-code:hover {cursor: pointer; background: #0a99c9;}
+.input-form .warming-tips span {margin-left: 30px;}
+.input-form .warming-tips span i {margin-right: 10px;}
+.input-form .warming-tips .warning {color: #ea8010;}
+.input-form .warming-tips .success {color: #008c00;}
+.input-form .warming-tips p {margin-top: 10px; width: 340px;}
+.input-form .checkbox {color: #a3a3a3; margin-right: 10px;}
+.input-form a {color: #12b5eb;}
+.input-btn {margin: 40px 0px 0px; text-align: center;}
+.input-btn a {display: inline-block; padding: 12px 80px; color: #fff; background: #a3a3a3;}

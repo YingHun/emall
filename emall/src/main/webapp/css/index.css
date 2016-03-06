@@ -1,358 +1,65 @@
-@charset "utf-8";
-
-body {
-	background: #f5f5f5;
-	color: #757575;
-}
-
-.wrapper {
-	border-top: 3px solid #44B549;
-}
-
-.wrapper .layout {
-	width: 854px;
-	margin: 0 auto 20px;
-	background: #fff;
-}
-
-.wrapper .layout .login {
-	position: relative;
-	text-align: center;
-	padding: 30px 0px;
-	text-align: center;
-}
-
-.wrapper .layout .qrcode {
-	position: absolute;
-	top: -6px;
-	right: 0;
-	font-size: 34px;
-}
-
-.wrapper .layout h2 {
-	font-weight: 400;
-	font-size: 24px;
-	margin: 0px 0px 20px;
-	color: #44B549;
-	text-align: center;
-}
-
-.wrapper .layout .form-input {
-	text-align: center;
-}
-
-.wrapper .layout .code {
-	position: relative;
-	margin: 0px 0px 30px 0px;
-	padding: 80px 0px;
-}
-
-.wrapper .layout .code i {
-	position: absolute;
-}
-
-.wrapper .layout .code .mark {
-	top: -12px;
-	right: 0px;
-	font-size: 44px;
-	color: #9e9e9e;
-}
-
-.wrapper .layout .code .close {
-	top: -3px;
-	right: 5px;
-	font-size: 18px;
-	color: #fff;
-}
-
-.wrapper .layout .code p {
-	margin: 10px 0px 20px;
-	font-size: 12px;
-}
-
-.wrapper .layout .form-input input {
-	width: 326px;
-	height: 46px;
-	line-height: 46px;
-	padding: 0px 10px;
-	border: 1px solid #ddd;
-	margin: 15px 0px;
-	box-sizing: border-box;
-}
-
-.wrapper .layout .form-input button {
-	width: 326px;
-	height: 46px;
-	background: #44B549;
-	color: #fff;
-	cursor: pointer;
-	margin: 20px 0px 40px;
-	border: none;
-}
-
-.wrapper .layout .form-input button:hover {
-	background: #00bb00;
-}
-
-.wrapper .layout .others-account {
-	overflow: hidden;
-}
-
-.wrapper .layout .others-account fieldset {
-	width: 80%;
-	margin: 0 auto 30px;
-	border-top: 1px #dcded8 solid;
-}
-
-.wrapper .layout .others-account fieldset legend {
-	width: 180px;
-	text-align: center;
-	color: #7d836d;
-}
-
-.wrapper .layout .others-account .accounts {
-	text-align: center;
-	margin: 0px 0px 30px;
-}
-
-.wrapper .layout .others-account .accounts i {
-	padding: 10px;
-	margin: 0px 10px;
-	border-radius: 50%;
-	color: #fff;
-}
-
-.register-forget  ul {
-	text-align: center;
-}
-
-.register-forget ul li {
-	display: inline-block;
-	margin: 0px auto 15px;
-	font-size: 14px;
-}
-
-.copyright ul {
-	text-align: center;
-}
-
-.copyright ul li {
-	display: inline-block;
-	margin: 0px auto;
-}
-
-.copyright p {
-	margin-top: 5px;
-	text-align: center;
-	font-size: 12px;
-}
-
-/* 颜色表 */
-.blue {
-	background: #00AAEE;
-}
-
-.light-blue {
-	background: #5294D0;
-}
-
-.green {
-	background: #0BB715;
-}
-
-.red {
-	background: #F00700;
-}
-
-.blue:hover, .light-blue:hover, .green:hover, .red:hover {
-	opacity: 0.8;
-}
-/* 颜色表 */
-
-/* register样式*/
-.logo {
-	background: #fff;
-	height: 60px;
-	line-height: 60px;
-	box-shadow: 0 0 10px #e2e2e2;
-}
-
-.logo img {
-	margin: 0px 0px 0px 40px;
-}
-
-.logo .account-login {
-	float: right;
-	margin: 0px 40px 0px 0px;
-	color: #459ae9;
-}
-
-.logo .have-account {
-	float: right;
-	margin: 0px 5px 0px 0px;
-}
-
-.container {
-	width: 1200px;
-	margin: 36px auto 0px;
-	border: 1px solid #d9dadc
-}
-
-.container-box {
-	width: 100%;
-	background: #fff;
-	ming-height: 700px;
-}
-
-.container-box .step-items {
-	overflow: hidden;
-	border-bottom: 1px solid #d9dadc
-}
-
-.container-box .process-bar {
-	background-color: #fff;
-	border-color: #e6e7ea;
-	box-shadow: none;
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-}
-
-.container-box .process-bar h4 {
-	font-weight: 400;
-}
-
-.container-box .process-bar h4 i {
-	font-size: 16px;
-	margin-right: 5px;
-}
-
-.container-box .process-bar li {
-	float: left;
-	width: 20%;
-	text-align: center;
-	line-height: 43px;
-	background: transparent url(../images/icon/step.png) no-repeat 100% 0;
-}
-
-.container-box .process-bar li.current {
-	color: #fff;
-	background: #44B549 url(../images/icon/step.png) no-repeat 100% 0;
-	background-position: 100% -89px;
-}
-
-.container-box .process-bar li.pre-steps {
-	color: #747474;
-	background: transparent url(../images/icon/step.png) no-repeat 100% 0;
-	background-position: 100% -44px;
-}
-
-.container-box .process-bar li.next {
-	color: #747474;
-	background: #fff url(../images/icon/step.png) no-repeat 100% 0;
-	background-position: 100% 0px;
-}
-
-.container-box .process-bar li.nnext {
-	color: #747474;
-	background: #fff;
-}
-
-.container .account-register {
-	clear: both;
-	padding: 60px 100px;
-	background: #fff;
-	overflow: hidden;
-}
-.container .type-select {
-	padding: 0px 60px;
-	margin: 0 auto;
-}
-.container .type-select .select-tips {
-	margin-bottom: 20px;
-	color: #191919;
-}
-
-.account-register .type-select ul li {
-	width: 40%;
-	border: 1px solid #e7e7eb;
-	margin-right: 40px;
-}
- .account-register .type-select .telephone-register {
-	float: left;
-}
- .account-register .type-select .email-register {
-	float: right;
-}
-
-.account-register .type-select .card_desc {
-	padding: 10px 0px;
-	color: #7b7b7b;
-}
-
-.account-register .type-select ul li:hover {
-	cursor: pointer;
-	background: #ececec;
-	color: #44B549;
-}
-
-.account-register .type-select ul li:hover > p{
-	background: #ececec;
-	color: #44B549;
-}
-
-.account-register .type-select ul li dt {
-	margin: 0px 10px;
-}
-.account-register .type-select ul li dd {
-	text-indent: 2em;
-	margin: 20px 15px;
-}
-
-.account-register ul li i {
-	font-size: 40px;
-	vertical-align: middle;
-	margin-right: 10px;
-}
-
-.account-register ul li i.telephone {
-	color: #e14909;
-}
-
-.account-register ul li i.email {
-	color: #00a0dd;
-}
-
-.container .account-register ul li span {
-	font-size: 16px;
-}
-
-.container .account-register a {
-	display: inline-block;
-	padding: 40px 60px;
-	color: #fff;
-}
-
-.account-register .type-select p {
-	display: block;
-	background: #fbfbfb;
-	text-align: right;
-	padding: 10px 5px;
-	border-top: 1px solid #ccccd5;
-}
-
-.account-register .type-select p i {
-	font-size: 14px;
-	margin-top: -10px;
-}
-
-.rights {
-	padding: 20px 0px;
-	margin-top: 40px;
-	background: #e2e2e2;
-}
-
-.rights a {
-	color: #555;
-	
-}
-/* register样式*/
+@charset "utf-8";body{background:#f5f5f5;color:#757575}
+.wrapper{border-top:3px solid #44B549}
+.wrapper .layout{width:854px;margin:0 auto 20px;background:#fff}
+.wrapper .layout .login{position:relative;text-align:center;padding:30px 0;text-align:center}
+.wrapper .layout .qrcode{position:absolute;top:-6px;right:0;font-size:34px}
+.wrapper .layout h2{font-weight:400;font-size:24px;margin:0 0 20px;color:#44B549;text-align:center}
+.wrapper .layout .form-input{text-align:center}
+.wrapper .layout .code{position:relative;margin:0 0 30px 0;padding:80px 0}
+.wrapper .layout .code i{position:absolute}
+.wrapper .layout .code .mark{top:-12px;right:0;font-size:44px;color:#9e9e9e}
+.wrapper .layout .code .close{top:-3px;right:5px;font-size:18px;color:#fff}
+.wrapper .layout .code p{margin:10px 0 20px;font-size:12px}
+.wrapper .layout .form-input input{width:326px;height:46px;line-height:46px;padding:0 10px;border:1px solid #ddd;margin:15px 0;box-sizing:border-box}
+.wrapper .layout .form-input button{width:326px;height:46px;background:#44B549;color:#fff;cursor:pointer;margin:20px 0 40px;border:none}
+.wrapper .layout .form-input button:hover{background:#0b0}
+.wrapper .layout .others-account{overflow:hidden}
+.wrapper .layout .others-account fieldset{width:80%;margin:0 auto 30px;border-top:1px #dcded8 solid}
+.wrapper .layout .others-account fieldset legend{width:180px;text-align:center;color:#7d836d}
+.wrapper .layout .others-account .accounts{text-align:center;margin:0 0 30px}
+.wrapper .layout .others-account .accounts i{padding:10px;margin:0 10px;border-radius:50%;color:#fff}
+.register-forget ul{text-align:center}
+.register-forget ul li{display:inline-block;margin:0 auto 15px;font-size:14px}
+.copyright ul{text-align:center}
+.copyright ul li{display:inline-block;margin:0 auto}
+.copyright p{margin-top:5px;text-align:center;font-size:12px}
+.blue{background:#0AE}
+.light-blue{background:#5294D0}
+.green{background:#0BB715}
+.red{background:#F00700}
+.blue:hover,.green:hover,.light-blue:hover,.red:hover{opacity:.8}
+.logo{background:#fff;height:60px;line-height:60px;box-shadow:0 0 10px #e2e2e2}
+.logo img{margin:0 0 0 40px}
+.logo .account-login{float:right;margin:0 40px 0 0;color:#459ae9}
+.logo .have-account{float:right;margin:0 5px 0 0}
+.container{width:1200px;margin:36px auto 0;border:1px solid #d9dadc}
+.container-box{width:100%;background:#fff;ming-height:700px}
+.container-box .step-items{overflow:hidden;border-bottom:1px solid #d9dadc}
+.container-box .process-bar{background-color:#fff;border-color:#e6e7ea;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none}
+.container-box .process-bar h4{font-weight:400}
+.container-box .process-bar h4 i{font-size:16px;margin-right:5px}
+.container-box .process-bar li{float:left;width:20%;text-align:center;line-height:43px;background:transparent url(../images/icon/step.png) no-repeat 100% 0}
+.container-box .process-bar li.current{color:#fff;background:#44B549 url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -89px}
+.container-box .process-bar li.pre-steps{color:#747474;background:transparent url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -44px}
+.container-box .process-bar li.next{color:#747474;background:#fff url(../images/icon/step.png) no-repeat 100% 0;background-position:100% 0}
+.container-box .process-bar li.nnext{color:#747474;background:#fff}
+.container .account-register {clear:both;padding:60px 100px;background:#fff;overflow:hidden}
+.container .type-select{padding:0 60px;margin:0 auto}
+.container .type-select .select-tips{margin-bottom:20px;color:#191919}
+.account-register .type-select ul li{width:40%;border:1px solid #e7e7eb;margin-right:40px}
+.account-register .type-select .telephone-register{float:left}
+.account-register .type-select .email-register{float:right}
+.account-register .type-select .card_desc{padding:10px 0;color:#7b7b7b}
+.account-register .type-select ul li:hover{cursor:pointer;background:#ececec;color:#44B549}
+.account-register .type-select ul li:hover>p{background:#ececec;color:#44B549}
+.account-register .type-select ul li dt{margin:0 10px}
+.account-register .type-select ul li dd{text-indent:2em;margin:20px 15px}
+.account-register ul li i{font-size:40px;vertical-align:middle;margin-right:10px}
+.account-register ul li i.telephone{color:#e14909}
+.account-register ul li i.email{color:#00a0dd}
+.container .account-register ul li span{font-size:16px}
+.container .account-register a{display:inline-block;padding:40px 60px;color:#fff}
+.account-register .type-select p{display:block;background:#fbfbfb;text-align:right;padding:10px 5px;border-top:1px solid #ccccd5}
+.account-register .type-select p i{font-size:14px;margin-top:-10px}
+.rights{padding:20px 0;margin-top:60px;background:#e2e2e2}
+.rights a{color:#555}
