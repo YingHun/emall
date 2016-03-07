@@ -39,10 +39,12 @@
 .container-box .process-bar h4{font-weight:400}
 .container-box .process-bar h4 i{font-size:16px;margin-right:5px}
 .container-box .process-bar li{float:left;width:25%;text-align:center;line-height:43px;background:transparent url(../images/icon/step.png) no-repeat 100% 0}
+.container-box .three-steps li{float:left;width:33.3333%;text-align:center;line-height:43px;background:transparent url(../images/icon/step.png) no-repeat 100% 0}
 .container-box .process-bar li.current{color:#fff;background:#44B549 url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -89px}
 .container-box .process-bar li.pre-steps{color:#747474;background:transparent url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -44px}
 .container-box .process-bar li.next{color:#747474;background:#fff url(../images/icon/step.png) no-repeat 100% 0;background-position:100% 0}
 .container-box .process-bar li.nnext{color:#747474;background:#fff}
+.container-box .process-bar li.last-step{color:#fff;background:#44B549 url(../images/icon/step.png) no-repeat 100% 0;background-position:100% -133px;}
 .container .account-register {clear:both;padding:60px 100px;background:#fff;overflow:hidden}
 .container .type-select{padding:0 60px;margin:0 auto}
 .container .type-select .select-tips{margin-bottom:20px;color:#191919}
@@ -63,3 +65,45 @@
 .account-register .type-select p i{font-size:14px;margin-top:-10px}
 .rights{padding:20px 0;margin-top:100px;background:#e2e2e2}
 .rights a{color:#555}
+
+/* 手机号码和电子邮箱注册界面样式 */
+.telephone-form {clear:both;padding:60px 100px;background:#fff;overflow:hidden}
+.tips {margin: 0px 0px 40px;}
+.tips i {color: #1cbcd9; margin-right: 10px;}
+.tips span {color: #555;}
+.input-form {margin: 30px 0px 0px;}
+.input-form label {color: #555; width: 100px; display: inline-block; vertical-align: top; margin-top: 10px;}
+.input-form input[type='checkbox'] {display: none;}
+.input-form .warming-tips {display: inline-block; }
+.input-form .warming-tips input {width: 320px; line-height: 30px; padding: 5px 10px; border: 1px solid #e3e3e3;}
+.input-form .warming-tips .msg-code {width: 180px; line-height: 30px; padding: 5px 10px; border: 1px solid #e3e3e3;}
+.input-form .warming-tips .send-message-code {display: inline-block; line-height: 30px; padding: 5px 0px; width: 116px; text-align: center; margin-left: 20px; border-radius: 3px; background: #1aabbf; color: #fff;}
+.input-form .warming-tips .send-message-code:hover {cursor: pointer; background: #0a99c9;}
+.input-form .warming-tips span {margin-left: 30px;}
+.input-form .warming-tips span i {margin-right: 10px;}
+.input-form .warming-tips .warning {color: #ea8010;}
+.input-form .warming-tips .success {color: #008c00;}
+.input-form .warming-tips p {margin-top: 10px; width: 340px;}
+.input-form .uncheck {color: #616161; margin-right: 10px; cursor: pointer;}
+.input-form .check {color: #1aabbf; margin-right: 10px; cursor: pointer;}
+.input-form a {color: #12b5eb;}
+.input-btn {margin: 40px 0px 0px; text-align: center;}
+.input-btn button {display: inline-block; padding: 12px 80px; color: #fff; background: #d8d8d8; cursor: pointer;}
+.input-btn button.active {background: #44B549;}
+/* 手机号码和电子邮箱注册界面样式 */
+
+/* 电子邮箱验证界面样式 */
+.verify {padding: 60px 200px;}
+.verify .tips .icon-email, .verify .tips .email-tips {float: left;}
+.verify .tips .email-tips {margin-left: 10px;}
+.verify .tips .icon-email img {vertical-align: top;}
+.verify .tips .email-tips .email-login {display: inline-block; padding: 5px 10px; background: #44B549; border-radius: 3px; color: #fff; margin: 10px 0px 40px 0px;}
+.verify .warming-tips {clear: both; margin-left: 58px;}
+.verify .warming-tips .retry {color: #459ae;}
+/* 电子邮箱验证界面样式 */
+
+/* 注册成功界面样式 */
+.success {padding: 60px 0px; text-align: center;}
+.success h2 {margin: 20px 0px 10px;}
+.success a {display: inline-block; padding: 8px 40px; margin: 20px 0px; background: #27a545; color: #fff; border-radius: 3px;}
+/* 注册成功界面样式 */

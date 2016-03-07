@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="images/icon/logo.ico">
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script type="text/javascript" src="js/require.js" data-main="js/index.js"></script>
+	<script type="text/javascript" src="js/require.js" data-main="js/app/index.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -46,8 +46,8 @@
 				</div>
 				<div class="register-forget">
 					<ul>
-						<li><a href="app/register/register.jsp">注册eGo账号</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-						<li><a href="app/password/forgetPassword.jsp">忘记密码？</a></li>
+						<li><a href="app/sys/register.jsp">注册eGo账号</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+						<li><a href="app/sys/forgetPassword.jsp">忘记密码？</a></li>
 					</ul>
 				</div>
 			</div>
