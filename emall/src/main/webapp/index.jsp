@@ -1,9 +1,10 @@
-<%@ page import="java.util.*" pageEncoding="utf-8" contentType="text/html; charset=utf-8"%>
+<%@ page import="java.util.*" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
+<%@ include file="app/comm/common.jsp" %>
 <!DOCTYPE HTML>
 <html lang="zh_CN">
 <head>
-	<meta charset="utf-8">
-	<meta name="content-type" content="text/html; charset=utf-8">
+	<meta charset="UTF-8">
+	<meta name="content-type" content="text/html; charset=UTF-8">
 	<title>Go商城</title>
 	<link rel="shortcut icon" href="images/icon/logo.ico">
 	<link rel="stylesheet" type="text/css" href="css/base.css">

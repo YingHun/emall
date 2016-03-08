@@ -1,20 +1,21 @@
-<%@ page import="java.util.*" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
+<%@ page import="java.util.*" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" isELIgnored="false"%>
+<%@ include file="../comm/common.jsp" %>
 <!DOCTYPE html>
 <html lang="zh_CN">
 <head>
 	<meta charset="utf-8">
 	<meta name="content-type" content="text/html; charset=utf-8">
 	<title>账号注册</title>
-	<link rel="shortcut icon" href="../../images/icon/logo.ico">
-	<link rel="stylesheet" type="text/css" href="../../css/base.css">
-	<link rel="stylesheet" type="text/css" href="../../css/index.css">
-	<script type="text/javascript" src="../../js/require.js" data-main="../../js/app/index.js"></script>
+	<link rel="shortcut icon" href="${ctx }/images/icon/logo.ico">
+	<link rel="stylesheet" type="text/css" href="${ctx }/css/base.css">
+	<link rel="stylesheet" type="text/css" href="${ctx }/css/index.css">
+	<script type="text/javascript" src="${ctx }/js/require.js" data-main="${ctx }/js/app/index.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="logo">
 			<a title="eGo商城">
-				<img alt="易购商城" title="易购商城" src="../../images/icon/elogo.png" width="160" height="36">
+				<img alt="易购商城" title="易购商城" src="${ctx }/images/icon/elogo.png" width="160" height="36">
 			</a>
 			<a id="account_login" class="account-login">立即登录</a>
 			<span class="have-account">已有e购商城帐号？</span>

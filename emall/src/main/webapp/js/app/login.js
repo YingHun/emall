@@ -1,7 +1,7 @@
 /**
  * 商城登录
  */
-define(function(){
+define(['jquery'], function ($) {
 	var $submit = $("#submit"),  // 提交登录表单
 		$account_login = $("#account_login"),  // 账号登录
 		$change_account = $("#change_account"),  // 切换为账号登录
@@ -16,7 +16,7 @@ define(function(){
 	
 	// 返回登录页面
 	$account_login.on("click", function(){
-		window.location.href = "../../index.jsp";
+		window.location.href = mall_base.ctx + "index.jsp";
 	});
 	
 	// 切换为二维码登录

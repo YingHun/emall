@@ -22,9 +22,9 @@
 			</div>
 			<div class="warming-tips">
 				<p>没有收到邮件？</p>
-				<p>1、请检查邮件地址是否正确，您可以返回<a class="retry">重新填写</a></p>
+				<p>1、请检查邮件地址是否正确，您可以返回<a class="retry" id="form_again">重新填写</a></p>
 				<p>2、检查您的邮件垃圾箱</p>
-				<p>3、若仍未收到确认邮件，请尝试<a class="retry">重新发送</a></p>
+				<p>3、若仍未收到确认邮件，请尝试<a class="retry" id="send_again">重新发送</a></p>
 			</div>
 		</form>
 	</div>

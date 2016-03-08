@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			<div class="input-form">
-				<label><input type="checkbox" name="agree"></label>
+				<label><input type="checkbox" name="agree" id="checkbox_agree"></label>
 				<i class="iconfonts uncheck" id="agree">&#xe6d0;</i>我同意并遵守<a>《易购商城服务协议》</a>
 			</div>
 			<div class="input-btn">

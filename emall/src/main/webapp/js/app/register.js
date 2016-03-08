@@ -1,7 +1,7 @@
 /**
  * 注册账号
  */
-define(function(){
+define(['jquery', "app"], function ($, app) {
 	// 定义一个对象存放注册信息
 	var params = {};
 	// 初始化注册步骤为第一步
@@ -28,7 +28,7 @@ define(function(){
 		// 获取手机号码类型编码
 		params.type = $(this).data("type");
 		// 获取手机号码注册页面
-		loadPage("../../app/sys/telephone.jsp", register);
+		loadPage(mall_base.ctx + "app/sys/telephone.jsp", register);
 		// 当前注册步骤
 		params.step = 2;
 	});
@@ -38,14 +38,15 @@ define(function(){
 		// 获取电子邮箱类型编码
 		params.type = $(this).data("type");
 		// 获取电子邮箱注册页面
-		loadPage("../../app/sys/email.jsp", register);
+		loadPage(mall_base.ctx + "app/sys/email.jsp", register);
 		// 当前注册步骤
 		params.step = 2;
 	});
 	
 	// 注册按钮回调函数
 	function register() {
-		$register_btn = $("#register_btn");
+		var $register_btn = $("#register_btn"),
+			$checkbox = $("#checkbox_agree");
 		$register_btn.attr("disabled", true);
 		
 		var seconds = 60; // 60秒后重新发送短信验证码
@@ -72,9 +73,11 @@ define(function(){
 			if ($(this).hasClass("uncheck")) {
 				$(this).html("&#xe6ce;").removeClass("uncheck").addClass("check");
 				$register_btn.removeAttr("disabled").addClass("active");
+				$checkbox.attr("checked", "checked");
 			} else {
 				$(this).html("&#xe6d0;").removeClass("check").addClass("uncheck");
 				$register_btn.attr("disabled", true).removeClass("active");
+				$checkbox.removeAttr("checked");
 			}
 		});
 		
@@ -82,7 +85,11 @@ define(function(){
 		$register_btn.on("click", function(){
 			// 手机号码注册
 			if (params.type == 1) {
-				loadPage("../../app/sys/telephoneSuccess.jsp", login);
+				app.submit(params, "INTF_SERVICE_REGISTER", function(data){
+					loadPage(mall_base.ctx + "app/sys/telephoneSuccess.jsp", login);
+				}, function(data){
+					return;
+				});
 			}
 			
 			// 电子邮箱注册
@@ -93,7 +100,7 @@ define(function(){
 				params.password = $("#password").val();
 				params.confirmPassword= $("#confirm_passowrd");
 				
-				loadPage("../../app/sys/sendEmail.jsp", emailLogin);
+				loadPage(mall_base.ctx + "app/sys/sendEmail.jsp", emailLogin);
 			}
 			
 			// 当前注册步骤
@@ -104,7 +111,7 @@ define(function(){
 	// 立即登录回调函数
 	function login() {
 		$("#login_now").on("click", function(){
-			window.location.href = "../../index.jsp";
+			window.location.href = mall_base.ctx + "index.jsp";
 		});
 	}
 	
@@ -119,6 +126,17 @@ define(function(){
 		$("#target_email").html(email);
 		// 登录邮箱
 		$("#email_login").attr("href", emailAddr[index]);
+		
+		// 重新填写
+		$("#form_again").on("click", function(){
+			// 获取电子邮箱注册页面
+			loadPage(mall_base.ctx + "app/sys/email.jsp", register);
+		});
+		
+		// 重新发送邮件
+		$("#send_again").on("click", function(){
+			
+		});
 	}
 	
 	// 加载页面
